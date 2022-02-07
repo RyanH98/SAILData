@@ -1,8 +1,4 @@
-# IJCAI 2019 AIMA4EDU Workshop
-
-# Dataset Documentation
-
-# Overview
+# IJCAI 2019 AIMA4EDU Workshop Dataset Documentation Overview
 
 This dataset contains data from students using the Squirrel AI Learning system at 2 learning centers in China. Squirrel AI Learning (SAIL) is an AI-based adaptive learning system that delivers afterschool tutoring to K-12 students. It covers a number of academic subjects, including mathematics, English, Physics, and Chemistry.
 
@@ -59,8 +55,7 @@ After each learning and practice question, SAIL computes and updates each studen
 
 The user records contain student response data at the question level.
 
-1.
-## math\_record\_cleaned: Mathematics user records
+## 1. math\_record\_cleaned: Mathematics user records
 
 - student\_index
   - indicates different students in math\_record (not real student&#39;s id)
@@ -134,8 +129,7 @@ The user records contain student response data at the question level.
 
 ##
 
-1.
-## en\_record\_cleaned: English user records
+## 2. en\_record\_cleaned: English user records
 
 - student\_index
   - indicates different students in en\_record (not real student&#39;s id)
@@ -190,8 +184,7 @@ The user records contain student response data at the question level.
 - ctime
   - indicates when each record is created (i.e. about when student submits the answer)
 
-1.
-## cn\_record\_cleaned: Chinese subject user records
+## 3. cn\_record\_cleaned: Chinese subject user records
 
 - student\_index
   - indicates different students in cn\_record (not real student&#39;s id)
@@ -257,8 +250,7 @@ The user records contain student response data at the question level.
 - ctime
   - indicates when each record is created (i.e. about when student submits the answer)
 
-1.
-## phy\_record\_cleaned: Physics user records
+## 4. phy\_record\_cleaned: Physics user records
 
 - student\_index
   - indicates different students in phy\_record (not real student&#39;s id)
@@ -326,8 +318,7 @@ The user records contain student response data at the question level.
 - ctime
   - indicates when each record is created (i.e. when student submits the answer)
 
-1.
-## chem\_record\_cleaned: Chemistry user records
+## 5. chem\_record\_cleaned: Chemistry user records
 
 - student\_index
   - student identifier in chem\_record (not real student&#39;s id)
@@ -394,8 +385,7 @@ The user records contain student response data at the question level.
 - ctime
   - indicates when each record is created (i.e. when student submits the answer)
 
-1.
-## en\_reading\_record\_cleaned: English Reading user records
+## 6. en\_reading\_record\_cleaned: English Reading user records
 
 - student\_index
   - indicates different students in en\_reading\_record (not real student&#39;s id)
