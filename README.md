@@ -490,7 +490,7 @@ Some statistics about webcam videos segments:
 
 &#39;phy&#39;: [558, 83004.0]}
 
-1. After further filtering, it contains 2170 segments:
+2. After further filtering, it contains 2170 segments:
 
   - Percentage of segments that have at least 50% valid tracking: 61.54%
   - Percentage of segments that have at least 70% valid tracking: 49.88%
