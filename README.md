@@ -12,10 +12,10 @@ For this dataset, while students were using SAIL, they were asked to wear a brai
 
 The data are organized into 4 folders, each is described in more detail in the following sections.
 
-1. [Synced](#II.-Synced)
-2. [User records](#III.-User-Records)
-3. [Brainwave](#IV.-Brainwave)
-4. [Webcam](#V.-Webcam-Videos)
+1. [Synced](#ii.-synced)
+2. [User records](#iii.-user-records)
+3. [Brainwave](#iv.-brainwave)
+4. [Webcam](#v.-webcam-videos)
 
 ## II. Synced
 
