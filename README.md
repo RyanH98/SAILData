@@ -1,4 +1,6 @@
-# IJCAI 2019 AIMA4EDU Workshop Dataset Documentation Overview
+# IJCAI 2019 AIMA4EDU Workshop Dataset Documentation 
+
+## I. Overview
 
 This dataset contains data from students using the Squirrel AI Learning system at 2 learning centers in China. Squirrel AI Learning (SAIL) is an AI-based adaptive learning system that delivers afterschool tutoring to K-12 students. It covers a number of academic subjects, including mathematics, English, Physics, and Chemistry.
 
@@ -10,12 +12,12 @@ For this dataset, while students were using SAIL, they were asked to wear a brai
 
 The data are organized into 4 folders, each is described in more detail in the following sections.
 
-1. [Synced](#_II._Synced)
-2. [User records](#_III._User_Records)
-3. [Brainwave](#_IV._Brainwave)
-4. [Webcam](#_V._Webcam_Videos)
+1. [Synced](#II. Synced)
+2. [User records](#III. User Records)
+3. [Brainwave](#IV. Brainwave)
+4. [Webcam](#V. Webcam Videos)
 
-# Synced
+## II. Synced
 
 This folder contains the synced results from all three data sources. There are 2 .txt files, one for each school: (1) schooln.txt from students at School N and (2) schoolg.txt from students at school G.
 
@@ -45,7 +47,7 @@ The fields/columns are:
 10. _brainwave\_file\_path\_EEG_: EEG log file path for the corresponding student (more info in Brainwave section)
 11. _brainwave\_file\_path\_events_: events log file path for the corresponding student (more info in Brainwave section)
 
-# User Records
+## III. User Records
 
 This folder contains 6 files, one for each of the subject area of study.
 
@@ -55,7 +57,7 @@ After each learning and practice question, SAIL computes and updates each studen
 
 The user records contain student response data at the question level.
 
-## 1. math\_record\_cleaned: Mathematics user records
+### 1. math\_record\_cleaned: Mathematics user records
 
 - student\_index
   - indicates different students in math\_record (not real student&#39;s id)
@@ -127,9 +129,7 @@ The user records contain student response data at the question level.
 - ctime
   - indicates when each record is created (i.e. when student submits the answer)
 
-##
-
-## 2. en\_record\_cleaned: English user records
+### 2. en\_record\_cleaned: English user records
 
 - student\_index
   - indicates different students in en\_record (not real student&#39;s id)
@@ -184,7 +184,7 @@ The user records contain student response data at the question level.
 - ctime
   - indicates when each record is created (i.e. about when student submits the answer)
 
-## 3. cn\_record\_cleaned: Chinese subject user records
+### 3. cn\_record\_cleaned: Chinese subject user records
 
 - student\_index
   - indicates different students in cn\_record (not real student&#39;s id)
@@ -250,7 +250,7 @@ The user records contain student response data at the question level.
 - ctime
   - indicates when each record is created (i.e. about when student submits the answer)
 
-## 4. phy\_record\_cleaned: Physics user records
+### 4. phy\_record\_cleaned: Physics user records
 
 - student\_index
   - indicates different students in phy\_record (not real student&#39;s id)
@@ -318,7 +318,7 @@ The user records contain student response data at the question level.
 - ctime
   - indicates when each record is created (i.e. when student submits the answer)
 
-## 5. chem\_record\_cleaned: Chemistry user records
+### 5. chem\_record\_cleaned: Chemistry user records
 
 - student\_index
   - student identifier in chem\_record (not real student&#39;s id)
@@ -385,7 +385,7 @@ The user records contain student response data at the question level.
 - ctime
   - indicates when each record is created (i.e. when student submits the answer)
 
-## 6. en\_reading\_record\_cleaned: English Reading user records
+### 6. en\_reading\_record\_cleaned: English Reading user records
 
 - student\_index
   - indicates different students in en\_reading\_record (not real student&#39;s id)
@@ -443,7 +443,7 @@ The user records contain student response data at the question level.
 - ctime
   - indicates when each record is created (i.e. when student submits the answer)
 
-# IV. Brainwave
+## IV. Brainwave
 
 This folder contains the raw brainwave data from two schools: schoolg and school. Each brainwave session outputs 3 file types: attention, EEG, and events.
 
@@ -464,7 +464,7 @@ This folder contains the raw brainwave data from two schools: schoolg and school
 
   1. Please convert timestamp to Beijing Time (GMT+8) if you need
 
-# V. Webcam Videos
+## V. Webcam Videos
 
 In this folder contains the relevant extracted features from each video captured by the Webcam.
 
@@ -479,15 +479,10 @@ Some statistics about webcam videos segments:
 1. Original segments by subject: number of question segments and total video length (in seconds):
 
 {&#39;chem&#39;: [36, 3816.0],
-
 &#39;cn&#39;: [83, 44977.0],
-
 &#39;en\_reading&#39;: [0, 0],
-
 &#39;en&#39;: [680, 79960.0],
-
 &#39;math&#39;: [896, 123495.0],
-
 &#39;phy&#39;: [558, 83004.0]}
 
 2. After further filtering, it contains 2170 segments:
