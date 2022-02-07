@@ -448,11 +448,13 @@ The user records contain student response data at the question level.
 This folder contains the raw brainwave data from two schools: schoolg and school. Each brainwave session outputs 3 file types: attention, EEG, and events.
 
 A. attention
+
     1. This contains the derived attention value by BrainCo (0-100)
     2. Each row is a Unix timestamp followed by its attention value.
     3. Please convert timestamp to Beijing Time (GMT+8) if you need
 
 B. EEG
+
     1. This contains the raw EEG data from BrainCo
     2. Each row has the timestamp, sequence Num, battery, logging label, and EEG array.
     3. Each point represents the difference in potential between the EEG reference point and the acquisition point. There are 160 such points in a minute for uA.
@@ -460,6 +462,7 @@ B. EEG
     5. Please convert timestamp to Beijing Time (GMT+8) if you need
 
 C. Events
+
     1. This contains the raw events data from BrainCo
     2. Each point has a Unix timestamp followed by the device stage. It indicates whether the device is connected or not in the corresponding time
     3. Please convert timestamp to Beijing Time (GMT+8) if you need
