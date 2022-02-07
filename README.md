@@ -451,18 +451,18 @@ This folder contains the raw brainwave data from two schools: schoolg and school
   1. This contains the derived attention value by BrainCo (0-100)
   2. Each row is a Unix timestamp followed by its attention value.
   3. Please convert timestamp to Beijing Time (GMT+8) if you need
+
 2. EEG
   1. This contains the raw EEG data from BrainCo
   2. Each row has the timestamp, sequence Num, battery, logging label, and EEG array.
   3. Each point represents the difference in potential between the EEG reference point and the acquisition point. There are 160 such points in a minute for uA.
   4. The vector in square brackets [] are the electrical signal output values of the sensors. These electrical signals can be transformed into frequency domain signals or waveforms (alpha, beta, gamma, etc.) by Fourier transform, and the average energy of each wave band can be calculated. BrainCo&#39;s definition: Alpha: 8-12, LowBeta: 12 -22, HighBeta: 22 -32, Gamma: 32-56
   5. Please convert timestamp to Beijing Time (GMT+8) if you need
-3. Events
 
+3. Events
   1. This contains the raw events data from BrainCo
   2. Each point has a Unix timestamp followed by the device stage. It indicates whether the device is connected or not in the corresponding time
-
-  1. Please convert timestamp to Beijing Time (GMT+8) if you need
+  3. Please convert timestamp to Beijing Time (GMT+8) if you need
 
 ## V. Webcam Videos
 
