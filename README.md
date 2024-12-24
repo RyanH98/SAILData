@@ -1,5 +1,9 @@
 # IJCAI 2019 AIMA4EDU Workshop Dataset Documentation 
 
+## NOTE:
+
+The original repository has been moved to [a new location, here](https://github.com/RyH9/SAILData/tree/main). For SAIL Data, see the new repository.
+
 ## I. Overview
 
 This dataset contains data from students using the Squirrel AI Learning system at 2 learning centers in China. Squirrel AI Learning (SAIL) is an AI-based adaptive learning system that delivers afterschool tutoring to K-12 students. It covers a number of academic subjects, including mathematics, English, Physics, and Chemistry.
