@@ -1,8 +1,10 @@
-# IJCAI 2019 AIMA4EDU Workshop Dataset Documentation 
-
-## NOTE:
+# NOTE: REPOSITORY MOVED
 
 The original repository has been moved to [a new location, here](https://github.com/RyH9/SAILData/tree/main). For SAIL Data, see the new repository.
+
+The original SAIL Data readme is still available below.
+
+# IJCAI 2019 AIMA4EDU Workshop Dataset Documentation 
 
 ## I. Overview
 
